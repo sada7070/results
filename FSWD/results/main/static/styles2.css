@@ -1,0 +1,100 @@
+*{
+  background-attachment: fixed;
+  background-color:rgba(220, 99, 137, 0.599);
+  text-align: center;
+}
+/* semister section */
+.overview{
+  text-align: center;
+  position:sticky;
+  
+}
+
+.c_cycle{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+  
+}
+
+.p_cycle{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+}
+
+.sem3{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+}
+
+.sem4{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+}
+
+.sem5{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+}
+
+.sem6{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+}
+
+.sem7{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+}
+
+.sem8{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+}

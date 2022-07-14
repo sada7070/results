@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h5{
+    text-align:center;
+}
+body{
+    background: url(https://www.ukfiet.org/wp-content/uploads/2021/03/Malawi-Survey.jpg) no-repeat;
+
+    background-size: cover;    
+}
+
+ .login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color:#fff;
+ }
+
+ .signup{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color:#fff;
+ }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css'%}">
+</head>
+<body>
+    <div class="login-form">
+    <h1>LOGIN FORM</h1>
+    <hr>
+    <br>
+    <form action="main/index" method="post">
+        {% csrf_token %}
+        <lable><b>User Name</b></lable>
+        <br>
+        <input type="text" placeholder="username" name="username">
+        <br>
+        <lable><b>Password</b></lable>
+        <br>
+        <input type="password" placeholder="password" name="password">
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <h6><u>forgot password</u></h6>
+        <hr>
+        <br>
+       <h5>Don't have an account?
+        <u><a href="http://127.0.0.1:8000/signup">SIGN UP</a></u></h5>
+ 
+    </form>
+    </div>
+</body>
+</html>
